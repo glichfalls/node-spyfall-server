@@ -1,0 +1,110 @@
+{
+  "name": "List 1",
+  "description": "Don't feel attacked",
+  "lang": "en",
+  "locations": {
+    "mt_everest": {
+      "name": "Mt. Everest",
+      "roles": [
+        "Climber",
+        "Sherpa",
+        "Yeti"
+      ]
+    },
+    "afghanistan": {
+      "name": "Afghanistan",
+      "roles": [
+        "Bin Laden",
+        "US Soldier",
+        "Taliban",
+        "Goat farmer"
+      ]
+    },
+    "north_korea": {
+      "name": "North Korea",
+      "roles": [
+        "Kim Jong-un",
+        "Kim Jong-il",
+        "Peasant",
+        "Nuke Scientist"
+      ]
+    },
+    "1st_world_war": {
+      "name": "1st World War",
+      "roles": [
+        "Medic",
+        "German tank operator",
+        "Archduke Franz Ferdinand"
+      ]
+    }
+  },
+  "russia": {
+    "name": "Russia",
+    "roles": [
+      "Putin",
+      "FSB agent",
+      "Slav"
+    ]
+  },
+  "atlantis": {
+    "name": "Atlantis",
+    "roles": [
+      "Mermaid",
+      "Neptune"
+    ]
+  },
+  "space_shuttle": {
+    "name": "Space shuttle",
+    "roles": [
+      "Pilot",
+      "Commander",
+      "Mission Specialists",
+      "Payload Specialists"
+    ]
+  },
+  "somalia": {
+    "name": "Somalia",
+    "roles": [
+      "Cargo ship captain",
+      "Pirate"
+    ]
+  },
+  "ancient_greece": {
+    "name": "Ancient Greece",
+    "roles": [
+      "Pythagoras",
+      "Hippocrates",
+      "Leonidas",
+      "Archimedes",
+      "Aristotle",
+      "Socrates"
+    ]
+  },
+  "crusades": {
+    "name": "Crusades",
+    "roles": [
+      "Knight",
+      "King",
+      "Peasant",
+      "God",
+      "Priest"
+    ]
+  },
+  "mars": {
+    "name": "Mars",
+    "roles": [
+      "alien",
+      "astronaut",
+      "Elon Musk"
+    ]
+  },
+  "usa": {
+    "name": "USA",
+    "roles": [
+      "Donald Trump",
+      "",
+      "Native American (Indian)",
+      ""
+    ]
+  }
+}
