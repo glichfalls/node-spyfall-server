@@ -1,9 +1,7 @@
-"use strict";
-
-import GameServer from "./GameServer";
+import GameServer from "./models/GameServer";
 import {IMessage, request, server} from "websocket";
 import {Server, createServer} from "http";
-import Player from "./Player";
+import Player from "./models/Player";
 
 process.title = 'node-spyfall';
 
@@ -11,7 +9,7 @@ const port : number = 1337;
 const httpServer : Server = createServer();
 
 httpServer.listen(port, () => {
-    console.log((new Date()) + ' Spyfall server is listening on port ' + port);
+    console.log((new Date()) + ' SpyFall server is listening on port ' + port);
 });
 
 const wsServer : server = new server({

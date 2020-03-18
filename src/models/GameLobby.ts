@@ -11,11 +11,11 @@ class GameLobby {
     private admin : Player;
     private spy : Player;
     private location : string;
-    private locations : Array<any> = [];
+    private locations : Array<string> = [];
     private duration : number;
     private timeLeft : number;
-    private interval : any;
     private status : number;
+    private interval : NodeJS.Timeout;
 
     constructor(id: string, client: Player) {
         this.id = id;

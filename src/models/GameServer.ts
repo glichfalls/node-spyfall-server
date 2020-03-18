@@ -1,6 +1,6 @@
 import GameLobby from "./GameLobby";
 import Player from "./Player";
-import {Command} from "./RequestCommandInterface";
+import {Command} from "../interfaces/CommandInterface";
 import {randomBytes} from "crypto";
 
 const COMMAND_JOIN : number = 0;
@@ -39,12 +39,6 @@ class GameServer {
 
         try {
 
-            console.log('player:', player);
-
-            console.log('command:', command);
-
-            console.log('lobbies:', this.lobbies);
-
             if (command.game.id) {
                 lobby = this.getLobby(command.game.id);
             }
@@ -56,7 +50,6 @@ class GameServer {
             switch (command.command) {
                 case COMMAND_CREATE:
                     lobby = this.createLobby(player);
-                    console.log('created: ', lobby);
                     break;
                 case COMMAND_JOIN:
                     lobby.connect(player);
@@ -71,7 +64,6 @@ class GameServer {
 
 
         } catch (e) {
-            console.log('error!', e.message);
             player.getConnection().send(JSON.stringify({
                 status: 500,
                 message: e.message
