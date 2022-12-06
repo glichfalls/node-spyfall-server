@@ -8,7 +8,7 @@
     "url": "https://github.com/glichfalls/node-spyfall-server.git"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "websocket": "^1.0.31"
   },
   "devDependencies": {
